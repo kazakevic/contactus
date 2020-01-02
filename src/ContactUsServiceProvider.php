@@ -24,8 +24,19 @@ class ContactUsServiceProvider extends ServiceProvider
     public function boot()
     {
         include __DIR__.'/routes.php';
+
+//        $this->publishes([
+//            __DIR__.'/public' => public_path('kazakevic/contactus'),
+//        ], 'contact-us');
+
         $this->publishes([
-            __DIR__.'/public' => public_path('kazakevic/contactus'),
+            __DIR__.'/resources/assets/js/contactUs.vue' =>
+                base_path('/resources/js/components/kazakevic/contactus/contactUs.vue'),
+        ], 'contact-us');
+
+        $this->publishes([
+            __DIR__.'/resources/assets/sass/contactUs.scss' =>
+                base_path('/resources/sass/components/kazakevic/contactus/contactUs.scss'),
         ], 'contact-us');
 
         $this->publishes([
