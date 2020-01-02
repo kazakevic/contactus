@@ -13,6 +13,7 @@
 import contactUs from "./components/kazakevic/contactus/contactUs.vue";
 Vue.component('contact-us', contactUs);
 ```
+ * add ```@import "components/kazakevic/contactus/contactUs";``` to the app.scss
 * Run build `npm run dev or npm run prod`
 
 * add Vue component where you need form
