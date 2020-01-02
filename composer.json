@@ -1,6 +1,6 @@
 {
     "name": "kazakevic/contactus",
-    "description": "Simple Contact Us page to send email",
+    "description": "Simple Contact Us form component for Laravel Framework",
     "minimum-stability": "dev",
     "type": "library",
     "license": "MIT",
