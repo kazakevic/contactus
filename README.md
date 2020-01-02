@@ -7,13 +7,14 @@
  
  #### Installation:
  * composer require kazakevic/contact-us
- * php artisan vendor:publish --tag=public --force
  * php artisan vendor:publish --tag=contact-us
- * add to you app styles and scripts:
- ``` 
-    <script src="{{ asset('kazakevic/contactus/js/contactUs.js') }}" defer></script>
-    <link href="{{ asset('kazakevic/contactus/css/contactUs.css') }}" rel="stylesheet">
- ```
+ * add component to the your app.js 
+```
+import contactUs from "./components/kazakevic/contactus/contactUs.vue";
+Vue.component('contact-us', contactUs);
+```
+* Run build `npm run dev or npm run prod`
+
 * add Vue component where you need form
 ```
 <contact-us></contact-us>
