@@ -2,7 +2,7 @@
 
 ## Simple Laravel contact us form 📧
 
-![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kazakevic/contact-us/master/depot/ss.png)
+![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kazakevic/contactus/master/depot/ss.png)
 
  
  #### Installation:
