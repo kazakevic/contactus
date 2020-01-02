@@ -1,0 +1,23 @@
+{
+    "name": "kazakevic/contactus",
+    "description": "Simple Contact Us page to send email",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kazakevic\\ContactUs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kazakevic\\ContactUs\\ContactUsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+    }
+}
