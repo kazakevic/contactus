@@ -11,8 +11,8 @@
  * php artisan vendor:publish --tag=contact-us
  * add to you app styles and scripts:
  ``` 
-    <script src="{{ asset('js/contactUs.js') }}" defer></script>
-    <link href="{{ asset('css/contactUs.css') }}" rel="stylesheet">
+    <script src="{{ asset('kazakevic/contactus/js/contactUs.js') }}" defer></script>
+    <link href="{{ asset('kazakevic/contactus/css/contactUs.css') }}" rel="stylesheet">
  ```
 * add Vue component where you need form
 ```
